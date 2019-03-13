@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		body{
+			font-family: tahoma;
+		}
+.container{
+    width: 100%;
+    margin:0;
+    overflow: hidden;
+    padding-top: 10%;
+    /*background: skyblue;*/
+   
+}
+
+.container ul{
+    padding: 0px;
+    margin-top:5%;
+}
+
+
+.container ul li{
+    float:left;
+    list-style: none;
+    width:32%;
+    height:230px;
+    background:grey;
+    margin :10px 0px 20px 15px; 
+    border:2px solid black;
+    box-sizing: border-box;
+    padding-left: 1%;
+}
+.container ul li:hover{
+    opacity: 0.8;
+}
+
+.container ul li .bottom{
+    width: 40%;
+    margin-top: .2%;
+    margin-left: 59.6%;
+    border-left: 2px solid black;
+    border-bottom: 2px solid black; 
+    height:50px;
+    line-height: 50px;
+    background: red;    
+    text-align: center;
+    color:black;
+    font-size: 32px;
+    text-decoration:bold;
+   
+}
+
+@media screen and (max-width:1250px){
+    .container ul li{
+        width:48.6%;
+        margin-left: 10px;
+         height:270px;
+    }
+    .container .box3{
+        width:98%;
+        margin-left: 10px;
+         height:220px;
+    }
+
+@media screen and (max-width:750px){
+    .container ul li{
+        width:98%;
+        margin-left: 10px;
+         height:230px;
+    }    
+	</style>
+</head>
+<body>
+<div class="container">
+        <span style="font-size:37px;"><center><b>Our Menu</b></center></span>
+        <ul>
+            <li> <div class="bottom" style="background-color: pink;">Chicken</div> 
+            <p>You can easily change the formatting of selected text in the document text by choosing a look for the selected text from the Quick Styles gallery on the Home tab. You can also format text directly by using the other controls on the Home tab. Most controls offer a choice of using the look from the current theme or using a format that you specify directly.</p>
+	</li>
+            <li> <div class="bottom" >Beef</div>
+            <p>You can easily change the formatting of selected text in the document text by choosing a look for the selected text from the Quick Styles gallery on the Home tab. You can also format text directly by using the other controls on the Home tab. Most controls offer a choice of using the look from the current theme or using a format that you specify directly.</p> </li>
+            <li class="box3"> <div class="bottom" style="background-color: orange;">Sushi</div> 
+
+            <p>You can easily change the formatting of selected text in the document text by choosing a look for the selected text from the Quick Styles gallery on the Home tab. You can also format text directly by using the other controls on the Home tab. Most controls offer a choice of using the look from the current theme or using a format that you specify directly.</p> </li>
+            
+        </ul>
+    </div>
+</body>
+</html>
